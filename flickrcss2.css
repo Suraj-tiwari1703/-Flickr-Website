@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    background-image: url(https://combo.staticflickr.com/ap/build/images/sohp/2020-top-25/Catwalk_am_Bahnhof_Zurich_Oerlikon_Peter_Arn.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.header nav img {
+    height: 4vh;
+    width: 1.7vw;
+    position: relative;
+    top: 1vh;
+    cursor: pointer;
+}
+
+/* .header {
+    background-color: black;
+    filter: opacity(0.9);
+} */
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 20px 25px;
+}
+
+@font-face {
+    font-family: Suraj;
+    src: url(https://combo.staticflickr.com/ap/build/fonts/proxima-nova-bold.woff2
+);
+}
+
+.header h1 {
+    position: relative;
+    right: 4vw;
+    text-decoration: none;
+    font-size: 2em;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: 'Suraj';
+}
+
+.header nav input {
+    width: 57vw;
+    height: 6vh;
+    background-color: #CDD0D6;
+    border: none;
+    border-radius: 3px;
+}
+
+.header nav input:active {
+    background-color: #F3F1ED;
+    transition: all ease 0.2s;
+    border: none;
+}
+
+@font-face {
+    font-family: H2;
+    src: url(https://combo.staticflickr.com/ap/build/fonts/proxima-nova-regular.woff2
+);
+}
+
+.header nav h2 {
+    position: relative;
+    left: 3vw;
+    text-decoration: none;
+    cursor: pointer;
+    top: 1vh;
+    font-size: 1.1em;
+    color: white;
+    font-weight: 9;
+    font-family: 'H2';
+}
+
+.header nav button {
+    width: 7.5vw;
+    height: 6vh;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    border: none;
+    font-size: 1em;
+    border-radius: 3px;
+}
+
+.header nav button:hover {
+    color: #7F7F7F;
+    transition: all ease 0.3s;
+}
+
+/* .header nav button:hover{
+    background-color: red;
+
+} */
+.box {
+    background-color: black;
+    height: 96.5vh;
+    width: 96%;
+    padding: 10px 25px;
+    position: absolute;
+    filter: opacity(0.5);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15vh 9vw;
+    position: relative;
+}
+
+.container h1 {
+    font-size: 3em;
+    color: white;
+    cursor: pointer;
+    font-family: 'Suraj';
+    line-height: 10vh;
+    padding-bottom: 5vh;
+}
+
+.container h2 {
+    font-size: 1.5em;
+    color: white;
+    cursor: pointer;
+    font-family: 'Suraj';
+}
+
+.container h3 {
+    font-size: 1.4em;
+    color: white;
+    cursor: pointer;
+    font-family: 'Suraj';
+    padding-bottom: 9vh;
+}
+
+.container button {
+    height: 10vh;
+    font-size: 1.3em;
+    font-family: 'suraj';
+    width: 14vw;
+    border: none;
+}
+
+.container button:hover {
+    color: #7F7F7F;
+    transition: all ease 0.3s;
+}
+
+.container button:active {
+    border: 3px solid #7F7F7F;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container2 h4,
+h5 {
+    font-size: 0.8em;
+    color: white;
+    cursor: pointer;
+    font-family: 'Suraj';
+    text-decoration: none;
+}
+
+.bottomdiv {
+    height: 11vh;
+    background-color: black;
+}
+
+.bottomdiv footer li ul {
+    list-style: none;
+    padding-top: 4vh;
+}
+
+.bottomdiv footer li {
+    display: flex;
+    cursor: pointer;
+    color: white;
+    justify-content: space-around;
+}

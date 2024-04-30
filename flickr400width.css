@@ -1,0 +1,272 @@
+@media (max-width:398px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .main {
+        background-image: url(https://combo.staticflickr.com/ap/build/images/sohp/2020-top-25/Catwalk_am_Bahnhof_Zurich_Oerlikon_Peter_Arn.jpg);
+        height: 100%;
+        width: 114.5%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .header nav img {
+        height: 6vh;
+        width: 80vw;
+        position: relative;
+        top: 1vh;
+
+        cursor: pointer;
+    }
+
+    /* .header {
+    background-color: black;
+    filter: opacity(0.9);
+} */
+    .header nav {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        padding: 20px 25px;
+    }
+
+    @font-face {
+        font-family: Suraj;
+        src: url(https://combo.staticflickr.com/ap/build/fonts/proxima-nova-bold.woff2
+);
+    }
+
+    .header h1 {
+        position: relative;
+        right: 1vw;
+        padding-left: 20px;
+        text-decoration: none;
+        font-size: 2em;
+        color: #FFFFFF;
+        cursor: pointer;
+        font-family: 'Suraj';
+    }
+
+    .header nav input {
+        width: 57vw;
+        height: 6vh;
+        display: none;
+        background-color: #CDD0D6;
+        border: none;
+        border-radius: 3px;
+    }
+
+    .header nav input:active {
+        background-color: #F3F1ED;
+        transition: all ease 0.2s;
+        border: none;
+    }
+
+    @font-face {
+        font-family: H2;
+        src: url(https://combo.staticflickr.com/ap/build/fonts/proxima-nova-regular.woff2
+);
+    }
+
+    .header nav h2 {
+        position: relative;
+        right: 15vw;
+        text-decoration: none;
+        cursor: pointer;
+        height: 10vh;
+        text-align: center;
+        width: 15vw;
+        top: 1vh;
+        border: 1px solid white;
+        font-size: 1em;
+        color: white;
+        font-weight: 9;
+        font-family: 'H2';
+    }
+
+    .header nav button {
+        width: 7.5vw;
+        height: 6vh;
+        background-color: white;
+        cursor: pointer;
+        color: black;
+        display: none;
+        border: none;
+        font-size: 1em;
+        border-radius: 3px;
+    }
+
+    .header nav button:hover {
+        color: #7F7F7F;
+        transition: all ease 0.3s;
+    }
+
+    /* .header nav button:hover{
+    background-color: red;
+
+} */
+    .box {
+        background-color: black;
+        height: 73.5%;
+        width: 105.5%;
+        display: none;
+        padding: 10px 25px;
+        position: absolute;
+        filter: opacity(0.5);
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10vh 5vw;
+        position: relative;
+    }
+
+    .container h1 {
+        font-size: 2px;
+         
+        
+         
+    }
+  
+
+    .container h2 {
+        font-size: 1.5em;
+        color: white;
+        cursor: pointer;
+        display: none;
+        font-family: 'Suraj';
+    }
+
+    .container h3 {
+        font-size: 1.4em;
+        color: white;
+        display: none;
+        cursor: pointer;
+        font-family: 'Suraj';
+        padding-bottom: 9vh;
+    }
+
+    .container button {
+        height: 15vh;
+        font-size: 1.3em;
+        font-family: 'suraj';
+        position: relative;
+        width: 40vw;
+        border: none;
+        bottom: 20vh;
+
+    }
+    #sign{
+        height: 15vh;
+        font-size: 1.3em;
+        font-family: 'suraj';
+        position: relative;
+        width: 40vw;
+        border: none;
+        bottom: 20vh;
+    }
+    .container button:hover {
+        color: #7F7F7F;
+        transition: all ease 0.3s;
+    }
+
+    .container button:active {
+        border: 3px solid #7F7F7F;
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .container2 h4,
+    h5 {
+        position: relative;
+        font-size: 0.8em;
+        color: white;
+        cursor: pointer;
+        font-family: 'Suraj';
+        text-decoration: none;
+    }
+
+    .bottomdiv {
+        height: 100%;
+        width: 114.5vw;
+        background-color: black;
+    }
+
+    .bottomdiv footer li ul {
+        list-style: none;
+        padding-top: 4vh;
+        padding-left: 4vw;
+        line-height: 9vh;
+        border-bottom: 1px solid white;
+    }
+
+    .bottomdiv footer li {
+        display: flex;
+        /* text-decoration: underline; */
+        cursor: pointer;
+        flex-direction: column;
+        color: white;
+        justify-content: space-around;
+    }
+
+    #mug {
+        border: none;
+        text-align: center;
+    }
+
+    #Connecting {
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        bottom: 8vh;
+    }
+
+    #fb {
+        border: none;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        bottom: 10vh;
+        padding-right: 20vw;
+
+
+    }
+
+    #twitter {
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        bottom: 20vh;
+        padding-left: 2vw;
+
+    }
+
+    #Insta {
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        bottom: 30vh;
+        padding-left: 20vw;
+    }
+
+
+}

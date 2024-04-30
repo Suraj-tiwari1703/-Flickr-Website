@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find your inspiration. | Flickr</title>
+    <link rel="shortcut icon" href="https://combo.staticflickr.com/pw/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="flickrcss2.css">
+    <link rel="stylesheet" href="flickr900width.css">
+    <link rel="stylesheet" href="flickr400width.css">
+    <style>
+        @media (max-width:600px) {
+            * {
+                padding: 0;
+                margin: 0;
+            }
+
+            .main {
+                background-image: url(https://combo.staticflickr.com/ap/build/images/sohp/2020-top-25/Catwalk_am_Bahnhof_Zurich_Oerlikon_Peter_Arn.jpg);
+                height: 100%;
+                width: 114.5%;
+                background-size: cover;
+                background-position: center;
+            }
+
+            .header nav img {
+                height: 4.5vh;
+                width: 4vw;
+                position: relative;
+                top: 1vh;
+                cursor: pointer;
+            }
+
+            /* .header {
+            background-color: black;
+            filter: opacity(0.9);
+        } */
+            .header nav {
+                display: flex;
+                justify-content: space-between;
+                position: relative;
+                padding: 20px 25px;
+            }
+
+            @font-face {
+                font-family: Suraj;
+                src: url(https://combo.staticflickr.com/ap/build/fonts/proxima-nova-bold.woff2
+);
+            }
+
+            .header h1 {
+                position: relative;
+                right: 25vw;
+                text-decoration: none;
+                font-size: 2em;
+                color: #FFFFFF;
+                cursor: pointer;
+                font-family: 'Suraj';
+            }
+
+            .header nav input {
+                width: 57vw;
+                height: 6vh;
+                display: none;
+                background-color: #CDD0D6;
+                border: none;
+                border-radius: 3px;
+            }
+
+            .header nav input:active {
+                background-color: #F3F1ED;
+                transition: all ease 0.2s;
+                border: none;
+            }
+
+            @font-face {
+                font-family: H2;
+                src: url(https://combo.staticflickr.com/ap/build/fonts/proxima-nova-regular.woff2
+);
+            }
+
+            .header nav h2 {
+                position: relative;
+                left: 25vw;
+                text-decoration: none;
+                cursor: pointer;
+                height: 5vh;
+                text-align: center;
+                width: 10vw;
+                top: 1vh;
+                border: 2px solid white;
+                font-size: 1.1em;
+                color: white;
+                font-weight: 9;
+                font-family: 'H2';
+            }
+
+            .header nav button {
+                width: 7.5vw;
+                height: 6vh;
+                background-color: white;
+                cursor: pointer;
+                color: black;
+                display: none;
+                border: none;
+                font-size: 1em;
+                border-radius: 3px;
+            }
+
+            .header nav button:hover {
+                color: #7F7F7F;
+                transition: all ease 0.3s;
+            }
+
+            /* .header nav button:hover{
+            background-color: red;
+
+        } */
+            .box {
+                background-color: black;
+                height: 73.5%;
+                width: 105.5%;
+                /* display: none; */
+                padding: 10px 25px;
+                position: absolute;
+                filter: opacity(0.5);
+            }
+
+            .container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 15vh 9vw;
+                position: relative;
+            }
+
+            .container h1 {
+                font-size: 2.5em;
+                color: white;
+                cursor: pointer;
+                font-family: 'Suraj';
+                line-height: 50vh;
+                padding-bottom: 5vh;
+            }
+
+            .container h2 {
+                font-size: 1.5em;
+                color: white;
+                cursor: pointer;
+                display: none;
+                font-family: 'Suraj';
+            }
+
+            .container h3 {
+                font-size: 1.4em;
+                color: white;
+                display: none;
+                cursor: pointer;
+                font-family: 'Suraj';
+                padding-bottom: 9vh;
+            }
+
+            .container button {
+                height: 10vh;
+                font-size: 1.3em;
+                font-family: 'suraj';
+                position: relative;
+                width: 30vw;
+                border: none;
+                bottom: 20vh;
+
+            }
+
+            .container button:hover {
+                color: #7F7F7F;
+                transition: all ease 0.3s;
+            }
+
+            .container button:active {
+                border: 3px solid #7F7F7F;
+            }
+
+            .container2 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+            }
+
+            .container2 h4,
+            h5 {
+                position: relative;
+                font-size: 0.8em;
+                color: white;
+                cursor: pointer;
+                font-family: 'Suraj';
+                text-decoration: none;
+            }
+
+            .bottomdiv {
+                height: 100%;
+                width: 114.5vw;
+                background-color: black;
+            }
+
+            .bottomdiv footer li ul {
+                list-style: none;
+                padding-top: 4vh;
+                padding-left: 4vw;
+                line-height: 9vh;
+                border-bottom: 1px solid white;
+            }
+
+            .bottomdiv footer li {
+                display: flex;
+                /* text-decoration: underline; */
+                cursor: pointer;
+                flex-direction: column;
+                color: white;
+                justify-content: space-around;
+            }
+
+            #mug {
+                border: none;
+                text-align: center;
+            }
+
+            #Connecting {
+                border: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                bottom: 8vh;
+            }
+
+            #fb {
+                border: none;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                bottom: 10vh;
+                padding-right: 20vw;
+
+
+            }
+
+            #twitter {
+                border: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                bottom: 20vh;
+                padding-left: 2vw;
+
+            }
+
+            #Insta {
+                border: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                bottom: 30vh;
+                padding-left: 20vw;
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="box"></div>
+            <nav>
+                <a href="http://127.0.0.1:3000/d:/FLICKR/FLICKR.html"> <img src="Flickr_dots.svg.png" alt=""></img></a>
+                <a href="http://127.0.0.1:3000/d:/FLICKR/FLICKR.html">
+                    <h1>Flickr</h1>
+                </a>
+                <input type="text" placeholder="Photo, people or groups" src="icons8-search-26.png"></input>
+                <a href="https://identity.flickr.com/login?redir=https%3A%2F%2Fwww.flickr.com%2F">
+                    <h2>Log in</h2>
+                </a>
+                <a href="https://identity.flickr.com/sign-up"><button id="sign">Sign Up</button></a>
+            </nav>
+        </div>
+        <div class="container">
+            <h1>Find your Inspiration.</h1>
+            <h2>Join the Flickr community, home to tens of billions of</h2>
+            <h3>photos and 2 million groups.</h3>
+            <a href="https://identity.flickr.com/sign-up"><button>Start for Free</button></a>
+        </div>
+        <div class="container2">
+            <a href="https://www.flickr.com/photos/peter-arn/49368797831">
+                <h4>Catwalk am Bahnhof Zürich Oerlikon</h4>
+            </a>
+            <a href="https://www.flickr.com/photos/peter-arn/49368797831">
+                <h5>Peter Arn</h5>
+            </a>
+        </div>
+    </div>
+    <div class="bottomdiv">
+        <footer>
+            <li>
+                <span>
+                    <ul>About</ul>
+                </span>
+                <ul>Jobs</ul>
+                <ul>Blog</ul>
+                <ul>Advertise</ul>
+                <ul>Developers</ul>
+                <ul>Guidelines</ul>
+                <ul>Help</ul>
+                <ul>Help forum</ul>
+                <ul>privacy</ul>
+                <ul>Terms</ul>
+                <ul>Cookies</ul>
+                <ul>English</ul>
+                <ul id="mug">SmugMug+Flickr.</ul>
+                <ul id="Connecting">Connecting people through photography</ul>
+                <ul id="fb"><img src="icons8-facebook.gif" height="30vh"></ul>
+                <ul id="twitter"><img src="icons8-twitter.gif" height="30vh"></ul>
+                <ul id="Insta"><img src="icons8-instagram.gif" height="30vh"></ul>
+
+            </li>
+        </footer>
+    </div>
+</body>
+
+</html>
